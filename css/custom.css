@@ -1,0 +1,28 @@
+/* your styles go here */
+
+@media screen and (max-width: 995px){
+   
+
+    .navbar-brand img { 
+   height: 20px; }     
+}
+
+
+label {
+    color: #333;
+}
+.btn-send {
+	color:#fff;
+    font-weight: 300;
+    background-color: #2082e1;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    margin-bottom: 20px;
+}
+
+
+.btn-default {
+	color: #fff;
+	background-color: #2082e1;
+	border-color: #2082e1;
+}
