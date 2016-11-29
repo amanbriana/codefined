@@ -180,10 +180,25 @@ label {
 }
 
 #aman .fa:hover {
+transform: scale(1.4, 1.4);
+-webkit-transition: all 0.3s ease;
+-moz-transition: all 0.3s ease;
+-o-transition: all 0.3s ease;
+-ms-transition: all 0.3s ease;
+transition: 0.3s ease;
 
-color: black;
 
 
+
+}
+
+#aman .fa {
+   
+   -webkit-transition: all 0.3s ease-out;
+   -moz-transition: all 0.3s ease-out;
+   -o-transition: all 0.3s ease-out;
+   -ms-transition: all 0.3s ease-out;
+   transition: all 0.3s ease-out;
 }
 
 #aman h4 {
@@ -200,11 +215,11 @@ margin-top: 30px;
 
 #aman-l img:hover{
 transform: scale(1.1, 1.1);
--webkit-transition: all 0.7s ease;
--moz-transition: all 0.7s ease;
--o-transition: all 0.7s ease;
--ms-transition: all 0.7s ease;
-transition: 0.7s ease;
+-webkit-transition: all 0.3s ease;
+-moz-transition: all 0.3s ease;
+-o-transition: all 0.3s ease;
+-ms-transition: all 0.3s ease;
+transition: 0.3s ease;
 
 opacity: 1;
 }
@@ -217,7 +232,11 @@ opacity: 1;
    -ms-transition: all 0.7s ease-out;
    transition: all 0.7s ease-out;
 }
+#aman-p img {
 
+vertical-align: middle;
+align-content: center;
+}
 
 
 
