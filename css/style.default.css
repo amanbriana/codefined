@@ -83,6 +83,7 @@ UNIVERSAL SECTION STYLES
   clear: both;
 }
 .section h2.title {
+  font-family: "Josefin Sans", sans-serif;
   color: #2082e1;
   display: inline-block;
   font-size: 40px;
@@ -486,7 +487,7 @@ FOOTER
   text-align: center;
   color: #999999;
   font-size: 14px;
-  font-family: Roboto, sans-serif;
+  font-family: "Josefin Sans", sans-serif;
 }
 #footer p.template-bootstrapious a {
   color: #999999;
@@ -512,9 +513,6 @@ input.btn {
 }
 strong {
   font-weight: 700;
-}
-.mb20 {
-  margin-bottom: 30px;
 }
 .mt-big {
   margin-top: 30px;
@@ -645,7 +643,7 @@ strong {
 }
 /* navbar */
 .navbar {
-  font-family: Roboto, sans-serif;
+  font-family: "Josefin Sans", sans-serif;
   min-height: 80px;
   margin-bottom: 0;
   border-bottom: 1px solid transparent;
@@ -711,7 +709,7 @@ strong {
   float: left;
   padding: 30px 15px;
   color: #2082e1;
-  font-family: Roboto, sans-serif;
+  font-family: "Josefin Sans", sans-serif;
   font-size: 20px;
   text-transform: uppercase;
   font-weight: 700;
@@ -904,7 +902,7 @@ strong {
 }
 /* scaffolding */
 body {
-  font-family: Roboto, sans-serif;
+  font-family: "Josefin Sans", sans-serif;
   font-size: 14px;
   line-height: 1.42857143;
   color: #555555;
@@ -957,7 +955,7 @@ hr {
 /* buttons  */
 .btn {
   font-weight: bold;
-  font-family: Roboto, sans-serif;
+  font-family: "Josefin Sans", sans-serif;
   text-transform: uppercase;
   padding: 6px 12px;
   font-size: 14px;
@@ -1037,7 +1035,7 @@ fieldset[disabled] .btn-primary.active {
 }
 /* labels */
 .label {
-  font-family: Roboto, sans-serif;
+  font-family: "Josefin Sans", sans-serif;
   font-weight: normal;
   text-transform: uppercase;
 }
@@ -1089,7 +1087,7 @@ fieldset[disabled] .form-control {
   border-top: solid 1px #eeeeee;
   padding-top: 20px;
   text-transform: uppercase;
-  font-family: Roboto, sans-serif;
+  font-family: "Josefin Sans", sans-serif;
 }
 .pager li {
   display: inline;
@@ -1117,7 +1115,7 @@ fieldset[disabled] .form-control {
 /* pagination */
 .pagination {
   margin: 20px 0;
-  font-family: Roboto, sans-serif;
+  font-family: "Josefin Sans", sans-serif;
   border-radius: 0;
 }
 .pagination > li > a,
@@ -1192,7 +1190,7 @@ h6,
 .h4,
 .h5,
 .h6 {
-  font-family: Roboto, sans-serif;
+  font-family: "Josefin Sans", sans-serif;
   font-weight: 500;
   line-height: 1.1;
   color: inherit;
