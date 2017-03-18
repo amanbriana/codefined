@@ -35,18 +35,14 @@ if(isset($_POST['submit'])){
 <!-- Bootstrap and Font Awesome css -->
 <link href="css/font-awesome.css" rel="stylesheet" type="text/css">
 <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css"><!-- owl carousel css -->
-<link href="css/owl.carousel.css" rel="stylesheet" type="text/css">
-<link href="css/owl.theme.css" rel="stylesheet" type="text/css"><!-- Theme stylesheet -->
 <link href="css/style.default.css" rel="stylesheet" id="theme-stylesheet" type="text/css">
 <!-- Custom stylesheet - for your changes -->
 <link href="css/custom.css" rel="stylesheet" type="text/css"><!-- CSS Animations -->
 <link href="css/sweetalert.css" rel="stylesheet" type="text/css"><!-- CSS Animations -->
 <link href="css/animate.css" rel="stylesheet" type="text/css"><!--contact form -->
-<link href='contactf.css' rel='stylesheet' type='text/css'><!-- Favicon -->
-<link rel="shortcut icon" href="img/head_code2.png"><!-- Mordernizr -->
+<link rel="shortcut icon" href="img/cdlogo.png"><!-- Mordernizr -->
 
-<script src="js/modernizr-2.6.2.min.js" type="text/javascript">
-</script><!-- Responsivity for older IE -->
+<script src="js/modernizr-2.6.2.min.js" type="text/javascript"> </script><!-- Responsivity for older IE -->
 <script src="js/sweetalert.min.js" type="text/javascript"></script>
 <!--[if lt IE 9]>
 	<script src="js/respond.min.js"></script>
@@ -60,10 +56,8 @@ if(isset($_POST['submit'])){
 <div class="navbar navbar-default navbar-fixed-top" role="navigation" id="navbar">
 <div class="container">
   <div class="navbar-header">
-	<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse"><span class=
-	"sr-only">Toggle navigation</span></button> 
-	<!--  <a class="navbar-brand scrollTo" href="#intro">Landing Page</a> --> <a class="navbar-brand topnav" href=
-	"#"><img style="max-height: 30px; margin-top: -3px;" src="img/logo.png"></a>
+	<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse"><span class= "sr-only">Toggle navigation</span></button> 
+	<a class="navbar-brand" href= "#"><img style="max-height: 100px; margin-top: -38px;" src="img/cdlogo.png"></a>
   </div>
 
   <div class="navbar-collapse collapse" id="navigation">
@@ -85,15 +79,12 @@ if(isset($_POST['submit'])){
 <!-- *** INTRO IMAGE ***
 	_________________________________________________________ -->
 
-<div id="intro" class="clearfix section">
+<div id="intro" class="section">
   <div class="item">
 	<div class="container">
 	  <div class="row">
 		<h1 data-animate="fadeInDown"><br></h1>
-
-		<ul class="list-inline intro-social-buttons">
-		  <li><a href="#section4" class="btn btn-default btn-lg"><span>let the coding begin</span></a></li>
-		</ul>
+		  <li><a href="#section4" class="btn btn-cd btn-lg">Let the coding begin</a></li>
 	  </div>
 	</div>
   </div>
@@ -183,7 +174,7 @@ _________________________________________________________ -->
 	  <div class="col-md-12">
 		<h2 class="title" data-animate="fadeInUp">Our Work</h2>
 
-		<ul class="owl-carousel testimonials same-height-row" data-animate="fadeInUp">
+		<ul class="carousel testimonials same-height-row" data-animate="fadeInUp">
 		  <li class="item">
 			<div class="testimonial same-height-always">
 			  <div class="text">
@@ -331,7 +322,7 @@ _________________________________________________________ -->
 
                   <div class="row">
                     <div class="form-group col-xs-12">
-                      <button id="submit" type="submit" name="submit" value="Submit" class="btn btn-default btn-lg">Send</button>
+                      <button id="submit" type="submit" name="submit" value="Submit" class="btn btn-cd btn-lg">Send</button>
                     </div>
                   </div>
                 </form>
